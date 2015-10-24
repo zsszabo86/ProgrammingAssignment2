@@ -9,8 +9,6 @@
 ## The provided examples, "makeVector" and "cachemean" functions, have been used as the 
 ## basis of the new code.
 
-
-
 ## makeCacheMatrix: This function creates a special matrix object that can cache its inverse.
 ## It contains the matrix x and its cahed inverse, inverseMatrix. 
 ## It returns a list of four functions:
@@ -39,8 +37,6 @@ makeCacheMatrix <- function(x = matrix()) {
        getInverseMatrix = getInverseMatrix) ## output the four functions above in a list
 
 }
-
-
 
 ## cacheSolve: This function computes the inverse of the special matrix returned by 
 ## "makeCacheMatrix" above. If the inverse has already been calculated (and the matrix 
